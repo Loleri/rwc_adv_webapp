@@ -1,0 +1,15 @@
+<div ng-app="myApp" ng-controller="charactersCtrl">
+<input ng-model="searchText" placeholder="enter search term here">
+  <ul>
+    <li ng-repeat="item in fruit | filter : searchText">
+      {{ item.Title }}
+    </li>
+  </ul>
+</div>
+
+<ul>
+  <li *ngFor="let item of fruit | async">
+    <p>{{ item.Title }}</p>
+    <p>{{ item.Actors }}</p>
+  </li>
+</ul>
