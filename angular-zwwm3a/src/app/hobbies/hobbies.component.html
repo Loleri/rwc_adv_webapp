@@ -1,0 +1,10 @@
+<div>
+  <h2>Hobbies</h2>
+  <ul>
+  <h4 *ngFor="let item of hobbies | async">
+      <h3> {{ item.name }}</h3>
+      <img class="card-img-top" src="{{ item.Url }}" style="height: 225px; width: 100%; display: block;"/>
+      <p> {{ item.desc }} </p>
+</h4>
+</ul>
+</div>

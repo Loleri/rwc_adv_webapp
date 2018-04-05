@@ -1,0 +1,8 @@
+<div>
+  <h2>About Me</h2>
+  <ul>
+  <h4 *ngFor="let item of intros | async">
+      <p> {{ item.intros.desc }}</p>
+</h4>
+</ul>
+</div>

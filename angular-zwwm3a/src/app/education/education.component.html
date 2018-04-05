@@ -1,0 +1,10 @@
+<div>
+  <h2>Education</h2>
+  <ul>
+  <h4 *ngFor="let item of education | async">
+    <h2>{{ item.name }}</h2>
+    <li>{{ item[0] }}</li>
+    <li>{{ item[1] }}</li>
+  </h4>
+</ul>
+</div>

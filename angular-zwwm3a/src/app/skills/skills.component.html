@@ -1,0 +1,10 @@
+<div>
+  <h2>Skills</h2>
+  <ul>
+  <h4 *ngFor="let item of skills | async">
+      <h2> {{ item.name }} </h2>
+      <li> {{ item.desc }} </li>
+      <li> {{ item.level }} </li>
+      </h4>
+</ul>
+</div>
