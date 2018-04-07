@@ -1,0 +1,46 @@
+{
+  "student" : {
+    "education" : {
+      "NJIT" : {
+        "0" : "Bachelor of Computing and Business",
+        "1" : "BS",
+        "name" : "NJIT"
+      },
+      "RWC Coach" : {
+        "0" : "Taught Students to create apps with AngularJS",
+        "1" : "Capstone",
+        "name" : "RWC Coach"
+      }
+    },
+    "images" : [ {
+      "Url" : "https://www.armynavysales.com/media/catalog/product/cache/1/image/700x700/e9c3970ab036de70892d86c6d221abfe/n/a/nato-tent-compressor.jpg",
+      "desc" : "Camping is in tents.",
+      "name" : "Camping"
+    }, {
+      "Url" : "https://goodlogo.com/images/logos/nintendo_64_logo_2555.gif",
+      "desc" : "N64, Xbox 360 PC.",
+      "name" : "Video Games"
+    }, {
+      "Url" : "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
+      "desc" : "Angular JS, Java",
+      "name" : "Programming"
+    } ],
+    "intros" : {
+      "desc" : "Thomas was born in Staten Island in 1993, but has lived most of his life in NJ. In his spare time, Thomas enjoys nature and camping and hiking",
+      "title" : "About Me"
+    },
+    "skills" : [ {
+      "desc" : "5 years experience with HTML Markup",
+      "level" : "75%",
+      "name" : "HTML"
+    }, {
+      "desc" : "3 years experience with HTML Markup",
+      "level" : "65%",
+      "name" : "Java"
+    }, {
+      "desc" : "One year of Angular",
+      "level" : "35%",
+      "name" : "Angular"
+    } ]
+  }
+}
